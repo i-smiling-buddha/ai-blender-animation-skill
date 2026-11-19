@@ -70,6 +70,8 @@ def add_common(p, save=True):
 
 def objects(names=None, types=("MESH",)):
     """Resolve names -> objects. No names: selected of `types`, else all visible of `types`."""
+    if isinstance(names, str):  # run(objects="Chair") from MCP: one name, not its letters
+        names = [names]
     if names:
         missing = [n for n in names if n not in bpy.data.objects]
         if missing:

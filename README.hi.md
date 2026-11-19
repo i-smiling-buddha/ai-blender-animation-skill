@@ -1,5 +1,7 @@
 # Ultimate Blender Skill — हिंदी गाइड
 
+![Ultimate Blender Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
+
 > English: [README.md](README.md)
 
 **One Skill. The Whole Blender Pipeline.**
@@ -24,6 +26,10 @@ npx skills add i-smiling-buddha/blender-animation-skill
 - **Photo → 3D** — फ़ोटो से textured model (Meshy API), फिर retopo और QA।
 - **Blender 5.x safe** — 5.x के API changes के rules पहले से अंदर हैं, जो पुराने tutorials और LLM memory को तोड़ देते हैं।
 - **Live या headless** — blender-mcp से आपका open Blender चलाता है, या बिना MCP के background में Blender run करता है।
+
+## Real Blender में tested
+
+हर Python script असली **Blender 5.3** (`pip install bpy==5.3.0`) में test होता है: `python tests/smoke_test.py`। Test के दौरान दो bugs मिले और fix हुए: एक, object का नाम list की जगह string देने पर script उसे अलग-अलग अक्षरों में तोड़ देता था; दो, `build_pbr_material` बिना preset के `color` को ignore कर देता था। हर push पर GitHub Actions यही test चलाता है। ऊपर वाला banner भी इसी skill के scripts से Blender में render हुआ है: [examples/render_banner.py](examples/render_banner.py)।
 
 ## Repo से install
 

@@ -5,7 +5,7 @@ license: MIT (see THIRD_PARTY_NOTICES.md for upstream terms)
 compatibility: Blender 5.2 LTS or newer (verified on 5.3). Optional blender-mcp server (uvx blender-mcp, port 9876) for live sessions. Node.js for scripts/node. MESHY_API_KEY for photo-to-3D.
 metadata:
   author: Fused by Smiling Buddha · DESITechnology
-  version: "1.0.0"
+  version: "1.1.0"
   sources: kevinbadi/blender-skills, arjun988/blender-skills, el4cteo/blender-skills
 ---
 

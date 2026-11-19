@@ -132,6 +132,12 @@ def run(name="M_Material", textures=None, preset=None, color=None, objects=None,
             bsdf.inputs["Coat Weight"].default_value = 1.0
             bsdf.inputs["Coat Roughness"].default_value = 0.05
         found["preset"] = preset
+    elif color:  # color without a preset: plain dielectric in that color (was silently ignored)
+        base = tuple(_srgb_to_lin(c) for c in color)
+        bsdf.inputs["Base Color"].default_value = (*base, 1)
+        bsdf.inputs["Roughness"].default_value = 0.5
+        mat.diffuse_color = (*base, 1)
+        found["color"] = list(color)
     if textures:
         maps = _find_textures(textures)
         dx = dx_normal or maps.pop("_dx", False)

@@ -1,7 +1,10 @@
 # Ultimate Blender Skill
 
+![Ultimate Blender Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
+
 **One skill. The whole Blender pipeline.**
 
+[![CI](https://github.com/i-smiling-buddha/blender-animation-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/i-smiling-buddha/blender-animation-skill/actions/workflows/ci.yml)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![blender](https://img.shields.io/badge/Blender-5.2%2B-orange)
 ![skills fused](https://img.shields.io/badge/skills%20fused-138-blueviolet)
@@ -24,11 +27,15 @@ npx skills add i-smiling-buddha/blender-animation-skill
 - **Director workflow**: every asset follows Analyze → Plan → Brief → Execute → Validate → Deliver, with poly/texture budgets per platform and a reference-image match loop.
 - **23 domain guides**: modeling, sculpting, retopo/UV, PBR + baking, Geometry Nodes, environments, rigging + animation, simulation/VFX/weather, lighting, rendering, LODs, engine export, QA, video editing, and more.
 - **90+ art styles**: anime, low-poly, PSX horror, voxel, HD-2D, toon/NPR, noir, cozy, cyberpunk, and genre direction for RPG, soulslike, shooter, survival and others.
-- **39 tested Python scripts**: QA check, auto retopo, UV pack, PBR builder, bake maps, Rigify build, mocap retarget, LODs, terrain, scatter, rain/snow/lightning, render batch, export with engine presets, all sharing one helper module.
+- **39 Python scripts tested in real Blender 5.3**: QA check, auto retopo, UV pack, PBR builder, bake maps, Rigify build, mocap retarget, LODs, terrain, scatter, rain/snow/lightning, render batch, export with engine presets, all sharing one helper module.
 - **Product video kit**: turntable, slow zoom, dolly, crane, speed-ramp loop, perfect loop, Poly Haven studios, Three.js web viewer export.
 - **Photo → 3D**: one or more photos become a textured model (Meshy API), then get retopo and QA.
 - **Blender 5.x safe**: built-in rules for the 5.x API changes that break old tutorials and LLM memory.
 - **Live or headless**: drives your open Blender through blender-mcp, or runs Blender in the background with no MCP at all.
+
+## Tested in real Blender
+
+Every Python script runs against real **Blender 5.3** (`pip install bpy==5.3.0`): `python tests/smoke_test.py`. Testing caught and fixed two bugs: scripts split an object name passed as a plain string (instead of a list) into single letters, and `build_pbr_material` ignored `color` when no preset was given. GitHub Actions runs the same test on every push. The banner above was rendered in Blender by this skill's own scripts: [examples/render_banner.py](examples/render_banner.py).
 
 ## Install
 
