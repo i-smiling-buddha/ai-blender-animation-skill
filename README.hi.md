@@ -66,6 +66,7 @@ Blender खोलिए, blender-mcp add-on connect कीजिए, फिर �
 
 ## Smiling Buddha की और free skills
 
+- **[AI Video Vision Skill](https://github.com/i-smiling-buddha/ai-video-vision-skill)** — अपने agent को video देखने-सुनने की ताक़त दीजिए: YouTube, TikTok, X, Instagram या local video देखकर timestamps के साथ जवाब देता है — captions, free local Whisper, smart scene frames और optional Gemini engine के साथ। `npx skills add i-smiling-buddha/ai-video-vision-skill`
 - **[Smart Model Router Skill](https://github.com/i-smiling-buddha/smart-model-router-skill)** — हर task के लिए सही model: आपका agent सबसे सस्ता काम करने लायक model चुनता है, result verify करता है और fail होने पर ही escalate करता है। `npx skills add i-smiling-buddha/smart-model-router-skill`
 - **[AI Image Recognition Skill](https://github.com/i-smiling-buddha/ai-image-recognition-skill)** — असली image file में transparency, format, size/DPI, colors, blur और GPS metadata check करता है। `npx skills add i-smiling-buddha/ai-image-recognition-skill`
 - **[Reflection Skill](https://github.com/i-smiling-buddha/reflection-skill)** — किसी भी app, website, game या software का clean-room तरीके से अपने brand के साथ बेहतर version। `npx skills add i-smiling-buddha/reflection-skill`

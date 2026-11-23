@@ -92,6 +92,7 @@ Built on [arjun988/blender-skills](https://github.com/arjun988/blender-skills) (
 
 ## More free skills by Smiling Buddha
 
+- **[AI Video Vision Skill](https://github.com/i-smiling-buddha/ai-video-vision-skill)**: give your agent eyes and ears for video. It watches YouTube, TikTok, X, Instagram or local videos and answers with timestamps, using captions, free local Whisper, smart scene frames and an optional Gemini engine. `npx skills add i-smiling-buddha/ai-video-vision-skill`
 - **[Smart Model Router Skill](https://github.com/i-smiling-buddha/smart-model-router-skill)**: one task, right model. Your agent routes each task to the cheapest model that can do it, verifies the result and escalates only on failure. `npx skills add i-smiling-buddha/smart-model-router-skill`
 - **[AI Image Recognition Skill](https://github.com/i-smiling-buddha/ai-image-recognition-skill)**: stop guessing from previews. Your agent checks real transparency, true format, size/DPI, colors, blur and GPS metadata in the actual image file. `npx skills add i-smiling-buddha/ai-image-recognition-skill`
 - **[Reflection Skill](https://github.com/i-smiling-buddha/reflection-skill)**: recreate any app, website, game or software, clean-room, under your own brand. `npx skills add i-smiling-buddha/reflection-skill`
