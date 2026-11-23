@@ -1,4 +1,4 @@
-"""Smoke-test every ultimate-blender script against real Blender (pip install bpy==5.3.0).
+"""Smoke-test every ai-blender-animation-skill script against real Blender (pip install bpy==5.3.0).
 
 Each test starts from an empty factory scene, builds a tiny fixture, calls the
 script's run(**kw) and checks that it returns a dict without raising.
@@ -9,7 +9,7 @@ script's run(**kw) and checks that it returns a dict without raising.
 import os, sys, json, tempfile, traceback, importlib, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SCRIPTS = os.path.join(HERE, "..", "skills", "ultimate-blender", "scripts")
+SCRIPTS = os.path.join(HERE, "..", "skills", "ai-blender-animation-skill", "scripts")
 sys.path.insert(0, SCRIPTS)
 import bpy  # noqa: E402
 

@@ -1,6 +1,6 @@
-# Ultimate Blender Skill — हिंदी गाइड
+# AI Blender Animation Skill — हिंदी गाइड
 
-![Ultimate Blender Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
+![AI Blender Animation Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
 
 > English: [README.md](README.md)
 
@@ -8,12 +8,12 @@
 
 > अपने agent को बताइए कि Blender में क्या चाहिए — वो technical art director की तरह plan करता है, फिर बनाता है, check करता है और export करता है।
 
-Ultimate Blender तीन open Blender skill packs (**138 skills**) को fuse करके **एक** agent skill बनाता है। एक router आपकी request समझता है, सिर्फ ज़रूरी guide खोलता है, tested `bpy` scripts को आपके open Blender में (blender-mcp से) या headless चलाता है, और "done" बोलने से पहले result verify करता है।
+AI Blender Animation Skill तीन open Blender skill packs (**138 skills**) को fuse करके **एक** agent skill बनाता है। एक router आपकी request समझता है, सिर्फ ज़रूरी guide खोलता है, tested `bpy` scripts को आपके open Blender में (blender-mcp से) या headless चलाता है, और "done" बोलने से पहले result verify करता है।
 
 ## सबसे आसान install (कोई भी agent, 10 seconds)
 
 ```bash
-npx skills add i-smiling-buddha/blender-animation-skill
+npx skills add i-smiling-buddha/ai-blender-animation-skill
 ```
 
 ## Features
@@ -33,13 +33,13 @@ npx skills add i-smiling-buddha/blender-animation-skill
 
 ## Repo से install
 
-**Windows:** repo clone कीजिए, फिर `scripts\install.bat` पर double-click — skill `%USERPROFILE%\.claude\skills\ultimate-blender` में install हो जाएगी।
+**Windows:** repo clone कीजिए, फिर `scripts\install.bat` पर double-click — skill `%USERPROFILE%\.claude\skills\ai-blender-animation-skill` में install हो जाएगी।
 
 **macOS / Linux:**
 
 ```bash
-git clone https://github.com/i-smiling-buddha/blender-animation-skill
-sh blender-animation-skill/scripts/install.sh
+git clone https://github.com/i-smiling-buddha/ai-blender-animation-skill
+sh ai-blender-animation-skill/scripts/install.sh
 ```
 
 **ज़रूरी:** Blender 5.2 LTS या नया (5.3 best)। Optional: live session के लिए [blender-mcp](https://github.com/ahujasid/blender-mcp) (`claude mcp add blender -- uvx blender-mcp`), `scripts/node` के लिए Node.js, और photo → 3D के लिए `MESHY_API_KEY`।

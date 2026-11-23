@@ -1,6 +1,6 @@
 # Art styles (stylized, NPR, retro, anime...)
 
-> Fused guide. Script paths like `scripts/x.py` are relative to the **ultimate-blender skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
+> Fused guide. Script paths like `scripts/x.py` are relative to the **ai-blender-animation-skill skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
 
 Sections: `blender-stylized-npr`, `stylized-style`, `realistic-style`, `lowpoly-style`, `anime-style`, `manga-style`, `chibi-style`, `cartoon-style`, `comic-book-style`, `hand-painted-style`, `painterly-style`, `pixel-art-style`, `voxel-style`, `isometric-style`, `hd-2d-style`, `retro-8bit-style`, `retro-16bit-style`, `vector-style`, `minimalist-style`, `noir-style`, `stop-motion-craft-style`, `frutiger-aero-style`, `visual-console-eras`
 

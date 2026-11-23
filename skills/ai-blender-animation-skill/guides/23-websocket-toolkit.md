@@ -1,6 +1,6 @@
 # Optional: Blender Toolkit WebSocket add-on (external)
 
-> Fused guide. Script paths like `scripts/x.py` are relative to the **ultimate-blender skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
+> Fused guide. Script paths like `scripts/x.py` are relative to the **ai-blender-animation-skill skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
 
 > ⚠️ This section needs the external **Dev-GOM blender-toolkit** plugin (its add-on, TS scripts and reference docs were not in the kevinbadi repo). Linked `refs/blender-toolkit/*` docs are not bundled. Prefer blender-mcp + `scripts/` instead.
 

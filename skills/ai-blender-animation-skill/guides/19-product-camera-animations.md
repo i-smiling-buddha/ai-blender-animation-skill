@@ -1,6 +1,6 @@
 # Product showcase camera animations
 
-> Fused guide. Script paths like `scripts/x.py` are relative to the **ultimate-blender skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
+> Fused guide. Script paths like `scripts/x.py` are relative to the **ai-blender-animation-skill skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
 
 Sections: `turntable`, `slow-zoom`, `dolly-rotate`, `crane-shot`, `dynamic-full-loop`, `perfect-loop`, `product-polish`
 

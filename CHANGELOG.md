@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.0 — 2026-11-24
+- Renamed everywhere to **AI Blender Animation Skill** (`ai-blender-animation-skill`): repo, skill folder, skill name, install commands, banner. Old name: ultimate-blender.
+
 ## 1.1.0 — 2026-11-19
 - Every script smoke-tested in real Blender 5.3 (`tests/smoke_test.py`), with GitHub Actions CI.
 - Fix: object-name arguments passed as a single string (common from MCP calls) were split into letters.

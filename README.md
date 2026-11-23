@@ -1,25 +1,25 @@
-# Ultimate Blender Skill
+# AI Blender Animation Skill
 
-![Ultimate Blender Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
+![AI Blender Animation Skill: 138 Blender skills fused into one agent skill](docs/banner.png)
 
 **One skill. The whole Blender pipeline.**
 
-[![CI](https://github.com/i-smiling-buddha/blender-animation-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/i-smiling-buddha/blender-animation-skill/actions/workflows/ci.yml)
+[![CI](https://github.com/i-smiling-buddha/ai-blender-animation-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/i-smiling-buddha/ai-blender-animation-skill/actions/workflows/ci.yml)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![blender](https://img.shields.io/badge/Blender-5.2%2B-orange)
 ![skills fused](https://img.shields.io/badge/skills%20fused-138-blueviolet)
-[![GitHub stars](https://img.shields.io/github/stars/i-smiling-buddha/blender-animation-skill?style=social)](https://github.com/i-smiling-buddha/blender-animation-skill/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/i-smiling-buddha/ai-blender-animation-skill?style=social)](https://github.com/i-smiling-buddha/ai-blender-animation-skill/stargazers)
 
 > Tell your agent what you want in Blender. It plans the asset like a technical art director, then builds, checks and exports it.
 
-Ultimate Blender combines three open Blender skill packs (**138 skills**) into **one** agent skill. One router reads your request, opens only the guide it needs, runs tested `bpy` scripts in your open Blender (through blender-mcp) or headless, and checks the result before it says "done".
+AI Blender Animation Skill combines three open Blender skill packs (**138 skills**) into **one** agent skill. One router reads your request, opens only the guide it needs, runs tested `bpy` scripts in your open Blender (through blender-mcp) or headless, and checks the result before it says "done".
 
 हिंदी गाइड: **[README.hi.md](README.hi.md)**
 
 **Try it in 10 seconds.** Works in Claude Code, Codex, Cursor, OpenCode and 40+ agents:
 
 ```bash
-npx skills add i-smiling-buddha/blender-animation-skill
+npx skills add i-smiling-buddha/ai-blender-animation-skill
 ```
 
 ## Features
@@ -42,18 +42,18 @@ Every Python script runs against real **Blender 5.3** (`pip install bpy==5.3.0`)
 ### Option 1: one command (any agent)
 
 ```bash
-npx skills add i-smiling-buddha/blender-animation-skill
+npx skills add i-smiling-buddha/ai-blender-animation-skill
 ```
 
 ### Option 2: from the repo
 
-**Windows:** clone, then double-click `scripts\install.bat` (installs to `%USERPROFILE%\.claude\skills\ultimate-blender`).
+**Windows:** clone, then double-click `scripts\install.bat` (installs to `%USERPROFILE%\.claude\skills\ai-blender-animation-skill`).
 
 **macOS / Linux:**
 
 ```bash
-git clone https://github.com/i-smiling-buddha/blender-animation-skill
-sh blender-animation-skill/scripts/install.sh
+git clone https://github.com/i-smiling-buddha/ai-blender-animation-skill
+sh ai-blender-animation-skill/scripts/install.sh
 ```
 
 **Requirements:** Blender 5.2 LTS or newer (5.3 recommended). Optional: [blender-mcp](https://github.com/ahujasid/blender-mcp) for live sessions (`claude mcp add blender -- uvx blender-mcp`), Node.js for `scripts/node`, and `MESHY_API_KEY` for photo → 3D.
@@ -70,7 +70,7 @@ Open Blender, connect the blender-mcp add-on, then just ask:
 ## How it's organized
 
 ```text
-skills/ultimate-blender/
+skills/ai-blender-animation-skill/
 ├── SKILL.md      router: director workflow, 5.x rules, task → guide table, verify gate
 ├── guides/       23 fused domain guides (each section labelled with its source pack)
 ├── styles/       art styles, horror, worlds & moods, game genres

@@ -1,6 +1,6 @@
 # Horror packs
 
-> Fused guide. Script paths like `scripts/x.py` are relative to the **ultimate-blender skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
+> Fused guide. Script paths like `scripts/x.py` are relative to the **ai-blender-animation-skill skill root**; all Python helpers live in one flat `scripts/` folder (shared `_bpyx.py`). Node helpers are in `scripts/node/`. Where two sources disagree, prefer the Blender 5.x rules in SKILL.md.
 
 Sections: `horror-style`, `psx-horror-style`, `indie-horror-aesthetics`, `analog-found-footage-horror`, `body-horror-style`, `cosmic-eldritch-horror`, `folk-horror-style`, `mascot-puppet-horror`, `liminal-space-style`, `dream-weirdcore-style`
 

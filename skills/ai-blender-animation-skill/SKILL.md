@@ -1,15 +1,15 @@
 ---
-name: ultimate-blender
+name: ai-blender-animation-skill
 description: All-in-one Blender 5.x skill for any Blender, bpy, .blend or 3D-asset task. Covers modeling, sculpting, retopo/UV, PBR, baking, rigging, animation, sims, VFX, lighting, rendering, game export, product turntables, Poly Haven, photo-to-3D, 90+ art styles. Drives Blender via blender-mcp or headless CLI.
 license: MIT (see THIRD_PARTY_NOTICES.md for upstream terms)
 compatibility: Blender 5.2 LTS or newer (verified on 5.3). Optional blender-mcp server (uvx blender-mcp, port 9876) for live sessions. Node.js for scripts/node. MESHY_API_KEY for photo-to-3D.
 metadata:
   author: Fused by Smiling Buddha · DESITechnology
-  version: "1.1.0"
+  version: "1.2.0"
   sources: kevinbadi/blender-skills, arjun988/blender-skills, el4cteo/blender-skills
 ---
 
-# Ultimate Blender
+# AI Blender Animation Skill
 
 One skill that fuses three packs: **el4cteo** (tested bpy scripts + Blender 5.x rules), **arjun988** (Technical Art Director workflow, 90+ specialist and style guides) and **kevinbadi** (product camera animations, Poly Haven, Meshy photo-to-3D, Three.js export).
 
@@ -43,7 +43,7 @@ Each MCP call runs in a fresh namespace, so re-`import` every time. Use `reload`
 python <skill_root>/scripts/run_in_blender.py --blend in.blend <skill_root>/scripts/<script.py> -- --objects Chair --save out.blend
 python <skill_root>/scripts/run_in_blender.py --expr "import bpy; print(len(bpy.data.objects))"
 ```
-**Windows**: prefer PowerShell. In Git Bash, prefix with `MSYS_NO_PATHCONV=1` and use `$(cygpath -m ~/.claude/skills)/ultimate-blender/...`. `blender.exe` must be on PATH, or pass its path.
+**Windows**: prefer PowerShell. In Git Bash, prefix with `MSYS_NO_PATHCONV=1` and use `$(cygpath -m ~/.claude/skills)/ai-blender-animation-skill/...`. `blender.exe` must be on PATH, or pass its path.
 **First call in a session**: run `scripts/env_report.py` (version, engines, GPU, add-ons, units, color management).
 **Node helpers** (kevinbadi; they talk to blender-mcp on port 9876): `node <skill_root>/scripts/node/<name>.js --help`.
 

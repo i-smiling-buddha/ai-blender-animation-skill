@@ -1,6 +1,6 @@
-"""Render the README hero image with ultimate-blender's own scripts (Blender 5.3, Cycles CPU)."""
+"""Render the README hero image with ai-blender-animation-skill's own scripts (Blender 5.3, Cycles CPU)."""
 import sys, os, math
-SCRIPTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "skills", "ultimate-blender", "scripts")
+SCRIPTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "skills", "ai-blender-animation-skill", "scripts")
 sys.path.insert(0, SCRIPTS)
 import bpy
 import build_pbr_material, smart_material, turntable, apply_stack  # noqa: E401

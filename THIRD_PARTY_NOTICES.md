@@ -1,6 +1,6 @@
 # Third-party notices
 
-ultimate-blender fuses three open Blender skill packs. Their content is kept with section-level source labels (`_(source: ...)_`) inside every guide.
+ai-blender-animation-skill fuses three open Blender skill packs. Their content is kept with section-level source labels (`_(source: ...)_`) inside every guide.
 
 ## arjun988/blender-skills — MIT
 https://github.com/arjun988/blender-skills
